@@ -1,8 +1,9 @@
 <script setup>
 </script>
 
-<template>
-  <header>
+<template style>
+
+  <header style="background-color: black;">
     <nav>
       <router-link to="/">Home</router-link>
       <router-link to="/filmes">Filmes</router-link>
