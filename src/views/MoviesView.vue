@@ -89,7 +89,9 @@ onMounted(async () => {
 
 
 .genre-item {
-  background-color: #387250;
+  background-color: black; 
+  border: 2px solid rgb(255, 215, 0); 
+  box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.6); 
   border-radius: 1rem;
   padding: 0.5rem 1rem;
   color: #fff;
@@ -97,8 +99,8 @@ onMounted(async () => {
 
 .genre-item:hover {
   cursor: pointer;
-  background-color: #4e9e5f;
-  box-shadow: 0 0 0.5rem #387250;
+  background-color: #928c3b;
+  box-shadow: 0 0 0.5rem #27a15a;
 }
 
 .movie-list {
@@ -113,8 +115,6 @@ onMounted(async () => {
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 0 0.5rem #000;
-  border: 2px solid rgb(255, 215, 0); 
-    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.6); 
     padding: 10px;
     background-color: black; 
     border: 2px solid rgb(255, 215, 0); 
@@ -151,7 +151,7 @@ onMounted(async () => {
 }
 
 .movie-genres span {
-  background-color: #748708;
+  background-color: #19381b;
   border-radius: 0.5rem;
   padding: 0.2rem 0.5rem;
   color: #fff;
@@ -161,7 +161,7 @@ onMounted(async () => {
 
 .movie-genres span:hover {
   cursor: pointer;
-  background-color: #455a08;
+  background-color: #529936;
   box-shadow: 0 0 0.5rem #748708;
 }
 
@@ -172,7 +172,7 @@ onMounted(async () => {
 
 .movie-genres span.active {
   background-color: #abc322;
-  color: #000;
+  color: #000000;
   font-weight: bolder;
 }
 </style>

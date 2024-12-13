@@ -87,7 +87,9 @@ onMounted(async () => {
 }
 
 .genre-item {
-  background-color: #3f963c;
+  background-color: black; 
+    border: 2px solid rgb(255, 215, 0); 
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.6); 
   border-radius: 1rem;
   padding: 0.5rem 1rem;
   align-self: center;
@@ -113,12 +115,10 @@ onMounted(async () => {
   height: 30rem;
   border-radius: 0.5rem;
   overflow: hidden;
-   border: 2px solid rgb(255, 215, 0); 
-    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.6); 
     padding: 10px;
-    background-color: black; /* Plano de fundo preto */
-    border: 2px solid rgb(255, 215, 0); /* Cor dourada em RGB */
-    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.6); /* Sombra dourada suave com RGB */
+    background-color: black; 
+    border: 2px solid rgb(255, 215, 0); 
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.6); 
     padding: 20px;
     color:#fff
 }
@@ -152,7 +152,8 @@ onMounted(async () => {
 }
 
 .Tv-genres span {
-  background-color: #748708;
+  border: 2px solid rgb(255, 215, 0); 
+  box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.6); 
   border-radius: 0.5rem;
   padding: 0.2rem 0.5rem;
   color: #ffffff;
@@ -162,7 +163,7 @@ onMounted(async () => {
 
 .Tv-genres span:hover {
   cursor: pointer;
-  background-color: #455a08;
+  background-color: #529936;
   box-shadow: 0 0 0.5rem #748708;
 }
 
